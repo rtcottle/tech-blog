@@ -2,3 +2,4 @@
 //TODO: Make login default to the profile tab.
 //TODO: update profile handlebars to only be posts, not projects.
 //TODO: update profile handlebars to display posts/comments, not projects
+//TODO: change public/profile.js to be posts/blogs not projects
