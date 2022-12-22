@@ -11,7 +11,6 @@ router.post('/', withAuth, async (req, res) => {
 
     res.status(200).json(newBlog);
   } catch (err) {
-    console.log('profile routes 14');
     res.status(400).json(err);
   }
 });
@@ -32,7 +31,6 @@ router.delete('/:id', withAuth, async (req, res) => {
 
     res.status(200).json(blogData);
   } catch (err) {
-    console.log('profile routes line 35');
     res.status(500).json(err);
   }
 });
